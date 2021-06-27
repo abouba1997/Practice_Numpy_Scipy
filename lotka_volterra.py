@@ -135,8 +135,8 @@ class LotkaVolterra:
         f.savefig(filename)
 
 if __name__ == '__main__':
-    a, b, c, d = 1, 0.1, 1.5, 0.75
-    system = LotkaVolterra(a, b, c, d)
+    a, b, c, d, e = 1, 0.1, 1.5, 0.75, 1
+    system = LotkaVolterra(a, b, c, d, e)
     system.plot_populas()
     system.plot_fields_and_trajectory()
     system.plot_contour()
